@@ -22,7 +22,7 @@ fun ItemDetailScreen(item: String) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "Detail of $item", style = MaterialTheme.typography.h4)
+        Text(text = "Detail $item", style = MaterialTheme.typography.h4)
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = {
             val intent = Intent(context, LihatAR::class.java)

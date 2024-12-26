@@ -44,6 +44,10 @@ class LihatAR : AppCompatActivity() {
                 onAnchorChanged = {
                     placeButton.isGone = it != null
                 }
+                // Disable scaling and zooming
+                isScaleEditable = false
+                isRotationEditable = false
+                isSelectable=false
             }
             sceneView.addChild(modelNode)
         } catch (e: Exception) {

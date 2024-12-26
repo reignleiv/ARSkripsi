@@ -125,7 +125,7 @@ fun BottomNavigationBar(selectedIndex: Int, onItemSelected: (Int) -> Unit) {
 
 @Composable
 fun HomeScreen(onItemClick: (String) -> Unit) {
-    val items = listOf("Meja", "Kursi", "Lemari")
+    val items = listOf("Meja", "Kursi", "Lemari", "LemariKecil","KursiKayu")
 
     LazyColumn(
         modifier = Modifier
